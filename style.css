@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;         
+}
+
+nav{
+    background-color:dodgerblue;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+      
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav a{
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    color: white;
+
+}
+
+#contenedor{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer{
+    background-color: black;
+    color:white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+#contenedor-tarjetas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tarjeta{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(183, 179, 179, 0.978);
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.img3{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+#contenedorBA{
+    display:none;
+}
+#contenedorCDM{
+    display:none;
+}
+#contenedorSantiago{
+    display:none;
+}
+#contenedorSaoPaulo{
+    display:none;
+}
+#contenedorQuito{
+    display:none;
+}
+footer button{
+    margin-left: 5%;
+    background-color: orange;
+    height: 70%;
+    width: 5%;
+}

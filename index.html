@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Dojo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>Tiempo Local</h1>
+        </div>
+        <div>
+            <a href="#" id="BuenosAires">Buenos Aires</a>
+            <a href="#" id="CiudadDeMexico">Ciudad de Mexico</a>
+            <a href="#" id="Santiago">Santiago</a>
+            <a href="#" id="SaoPaulo">Sao Paulo</a>
+            <a href="#" id="Quito">Quito</a>
+        </div>
+        <div>
+            <p>Mostrar Temperatura en</p>
+            <select>
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+            </select>
+        </div>
+    </nav>
+    <div id="contenedor">
+        <div id="contenedorBA">
+            <h2>Buenos Aires</h2>
+            <div id="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes.png" alt="" class="img3">
+                        <h3>Hoy</h3>
+                        <p>Mayormente Soleado</p>
+                        <p>18°C/13°C</p>
+                    </div>
+                </div>    
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes.png" alt="" class="img3">
+                        <h3>Mañana</h3>
+                        <p>Mayormente Soleado</p>
+                        <p>18°C/11°C</p>
+                    </div> 
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes.png" alt="" class="img3">
+                        <h3>Viernes</h3>
+                        <p>Mayormente Soleado</p>
+                        <p>19°C/15°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Lluvia.png" alt="" class="img3">
+                        <h3>Sabado</h3>
+                        <p>Lluvia</p>
+                        <p>20°C/17°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Lluvia.png" alt="" class="img3">
+                        <h3>Domingo</h3>
+                        <p>Lluvia</p>
+                        <p>20°C/18°C</p>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+        <div id="contenedorCDM">
+            <h2>Ciudad de Mexico</h2>
+            <div id="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Soleado.png" alt="" class="img3">
+                        <h3>Hoy</h3>
+                        <p>Soleado</p>
+                        <p>30°C/10°C</p>
+                    </div>
+                </div>    
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Soleado.png" alt="" class="img3">
+                        <h3>Mañana</h3>
+                        <p>Soleado</p>
+                        <p>29°C/10°C</p>
+                    </div> 
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Soleado.png" alt="" class="img3">
+                        <h3>Viernes</h3>
+                        <p>Soleado</p>
+                        <p>30°C/10°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Soleado.png" alt="" class="img3">
+                        <h3>Sabado</h3>
+                        <p>Soleado</p>
+                        <p>31°C/11°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Soleado.png" alt="" class="img3">
+                        <h3>Domingo</h3>
+                        <p>Soleado</p>
+                        <p>32°C/12°C</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div id="contenedorSantiago">
+            <h2>Santiado de Chile</h2>
+            <div id="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Soleado.png" alt="" class="img3">
+                        <h3>Hoy</h3>
+                        <p>Soleado</p>
+                        <p>28°C/14°C</p>
+                    </div>
+                </div>    
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes.png" alt="" class="img3">
+                        <h3>Mañana</h3>
+                        <p>Mayormente Soleado</p>
+                        <p>24°C/11°C</p>
+                    </div> 
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes.png" alt="" class="img3">
+                        <h3>Viernes</h3>
+                        <p>Mayormente Soleado</p>
+                        <p>20°C/11°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Sabado</h3>
+                        <p>Chubascos</p>
+                        <p>20°C/9°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Domingo</h3>
+                        <p>Chubascos</p>
+                        <p>21°C/10°C</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div id="contenedorSaoPaulo">
+            <h2>Sao Paulo</h2>
+            <div id="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Hoy</h3>
+                        <p>Chubascos</p>
+                        <p>27°C/16°C</p>
+                    </div>
+                </div>    
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Mañana</h3>
+                        <p>Chubascos</p>
+                        <p>27°C/17°C</p>
+                    </div> 
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Viernes</h3>
+                        <p>Chubascos</p>
+                        <p>27°C/17°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Sabado</h3>
+                        <p>Chubascos</p>
+                        <p>28°C/17°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Domingo</h3>
+                        <p>Chubascos</p>
+                        <p>28°C/18°C</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div id="contenedorQuito">
+            <h2>Quito</h2>
+            <div id="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Hoy</h3>
+                        <p>Chubascos</p>
+                        <p>20°C/6°C</p>
+                    </div>
+                </div>    
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Mañana</h3>
+                        <p>Chubascos</p>
+                        <p>20°C/8°C</p>
+                    </div> 
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Viernes</h3>
+                        <p>Chubascos</p>
+                        <p>20°C/8°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Sabado</h3>
+                        <p>Chubascos</p>
+                        <p>20°C/8°C</p>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div>
+                        <img src="imgs/Sol_y_nubes_con_lluvia.png" alt="" class="img3">
+                        <h3>Domingo</h3>
+                        <p>CHubascos</p>
+                        <p>19°C/9°C</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+           
+    <footer>
+        Detente! Tiempo de cookies, Usamos cookies (Tristemente no las comestibles) para personalizar contenido y anuncios.
+        proporcionar funciones de redes sociales y analizar nuestro trafico. <a href="#">Leer Más</a>
+        <button id="btncok" type="button">Acepto</button>
+    </footer>
+</body>
+</html>
